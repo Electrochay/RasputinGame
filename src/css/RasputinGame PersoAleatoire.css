@@ -1,0 +1,159 @@
+/*
+HEADER
+ */
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.header .header-logo:hover{
+    color: white;
+}
+
+.header .header-content{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-content:hover{
+    color: white;
+}
+
+.header .header-img{
+    margin-left: 37%;
+}
+
+/*
+BODY
+ */
+
+body {
+    background: #131416;
+    font-family : arial, sans-serif;
+    height: 1000vh;
+}
+
+.PersoI{
+    margin-top: 43px;
+    margin-left: 50%;
+    float: right;
+    top: 10%;
+    position: absolute;
+}
+
+.PersoI span{
+    display: block;
+}
+
+.PersoJ{
+    margin-top: 43px;
+    margin-left: 30%;
+    float: right;
+    top: 10%;
+    position: absolute;
+    display: block;
+}
+
+.PersoJ span{
+    display: block;
+}
+
+.TextePerso{
+    color: yellow;
+}
+
+.Competence{
+    margin-top: 17px;
+    float: right;
+    top: 10%;
+    position: absolute;
+}
+
+.TexteComp{
+    color: yellow;
+}
+
+.Capacites{
+    margin-top: 17px;
+    margin-left: 70%;
+    float: right;
+    top: 10%;
+    position: absolute;
+}
+
+.TexteCapa{
+    color: yellow;
+}
+
+.Recapitulatif{
+    margin-top: 115px;
+    float: right;
+    top: 35%;
+    position: absolute;
+}
+
+.TexteRecap{
+    color: yellow;
+}
+
+.PersoComplet{
+    margin-top: 30px;
+    margin-left: 40%;
+    float: right;
+    top: 32%;
+    position: absolute;
+}
+
+
+.TextePersoComplet{
+    color: yellow;
+}
+
+.button {
+    background-color: #131416;
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    border: 2px solid orangered;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    color: yellow;
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+.Input-number::-webkit-inner-spin-button,
+.Input-number::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.Input-number{
+    -moz-appearance: textfield;
+    border: 1px solid #2c3e50;
+    outline: none;
+}
+
+.gras{
+    font-weight: bold;
+}
